@@ -27,4 +27,7 @@ public class CacheController {
     public Response getCache(@PathParam("key") String key){
         return Response.ok(cacheService.getTestDto(key)).build();
     }
+
+
+
 }
